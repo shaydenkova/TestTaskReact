@@ -1,0 +1,85 @@
+header{
+  margin: 0px auto;
+  width: 1440px;
+  height: 59px;
+  background: #422ED4;
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+header img{
+  width: 43px;
+  height: 43px;
+  margin-left: 160px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+header p{
+  margin-top: 18px;
+}
+main{
+  width: 1440px;
+  height: 861px;
+}
+.container {
+  width: 1120px;
+  margin: 60px auto;
+}
+.title{
+  margin-top: 59px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 58px;
+  font-weight: 800;
+}
+.categories{
+  display: flex;
+  width: 100%;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  font-weight: 800;
+}
+.categoriesBox{
+  width: 170px;
+  height: 57px;
+  filter: drop-shadow(0px 22px 80px rgba(72, 70, 106, 0.07)) drop-shadow(0px 2.75474px 10.0172px rgba(72, 70, 106, 0.035));
+  border-radius: 18px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  border: 0px;
+}
+.citate{
+  margin-top: 165px;
+  width: 100%;
+  background: #422ED4;
+  height: 162px;
+  box-shadow: 0px 100px 80px rgba(80, 76, 103, 0.07), 0px 0px 10.0172px rgba(80, 76, 103, 0.035);
+  border-radius: 25px;
+  position: relative;
+}
+.citate img{
+  width: 122px;
+  height: 258px;
+  position: absolute;
+  bottom: 57px;
+  right: 24px;
+  z-index: -1;
+}
+.citateText{
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  padding: 24px;
+}
+.buttonActive{
+  background: #422ED4;
+  color: #FFFFFF;
+}
